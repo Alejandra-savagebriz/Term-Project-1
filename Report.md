@@ -73,7 +73,8 @@ The data used for this project has nine different datasets:
 
 ### Data schema  
 The following diagram explains the way in which the eight datasets are related:
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/71eebc87-12df-4757-8090-367377299ab1)
+![Actividad_1 - Page 2 (2)](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/ad395195-fce4-49f7-ac26-fe08b0297bfd)
+
 
 
 ### EER Diagram        
@@ -99,22 +100,6 @@ The following diagram explains the way in which the eight datasets are related:
         
 ### Loading data in MySQL Workbench
 <p align="justify"> For the last step of the creation of the operational data it was necessary to create the schema and the different tables. In MySQL Workbench the schema **supermarket_olist** was created as well as nine different tables in order to be consistent with the names of the store and the datasets.
-
-#### Schema creation
-<p align="justify"> During the schema creation process, we took into account the possibility of existing schemas with the same name as "**supermarket_olist**". If such schemas were identified, they were dropped. In cases where the schema did not exist, we proceeded to create it using the following code:
-
-![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/92f12e8d-aca9-4d31-bd6b-e321855e697c)
-
-
-#### Table creation
-<p align="justify"> To prepare the datasets for analysis, a specific table was created for each of the nine datasets, bearing names such as "customers," "reviews," "products," "orders," "payments," "sellers," "category name (translation)," "order items," and "geolocation." Within the creation of each table, meticulous attention was given to defining the data types associated with the respective datasets and specifying the required variable types. 
-
-<p align="justify"> Leveraging the data manipulation methods covered during the course, it was deemed most prudent for the project to ingest the datasets and subsequently populate the tables. This approach facilitated the systematic transfer of values from the files to the main code, enhancing the reproducibility of the process. In adopting this methodology, various tables were established within the "supermarket_olist" schema, ensuring a structured foundation for further analysis.
-
-<p align="justify"> This is a sample code for the creation of the table __category__, note that the SQL file with all of the process can be consulted in this repository:
-        
-![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/f2082649-0ee2-4006-affb-7adf49997e7e)
-
         
 ## Analytical Layer
 ### Creation of analytical layer
