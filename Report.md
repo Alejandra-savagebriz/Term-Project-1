@@ -80,7 +80,8 @@ The following diagram explains the way in which the eight datasets are related:
 ### EER Diagram        
 <p align="justify">The following Enhanced-Entity-Relationship Diagram (ERR) was created within MySQL Workbench, considering the distinctive attributes and interconnections inherent in each of the nine datasets associated with Olist Supermarket available data. This comprehensive ERD is emblematic of the primary keys, serving as unique identifiers for records within each dataset, and the consequential establishment of corresponding foreign keys that underpin pivotal connections and associations between the datasets.         
 
-![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/43eb7cf4-2767-46df-b3e0-c9e064d416b3)        
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/d448c2ce-db39-451b-ac39-22fc37f0051a)
+    
 
 
 ## Analytics
