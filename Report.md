@@ -8,8 +8,9 @@ Alejandra Savage Briz
 
 <p align="justify">The dataset was generously shared by Olist, a leading player in the Brazilian marketplace landscape. Olist serves as a bridge between small businesses across Brazil and various sales channels, simplifying the process through a single contractual agreement. These small businesses can list their products for sale on Olist Store, and Olist handles the logistics, facilitating direct shipping to customers through its network of partners. For more information about Olist, please visit their website at www.olist.com.
 
-<p align="justify">The order fulfillment process on Olist Store involves the following steps: when a customer places an order, a seller is promptly notified to prepare and ship the order. Upon the customer's receipt of the product or upon the estimated delivery date, the customer is invited to participate in a satisfaction survey via email. This survey enables the customer to provide feedback by assigning a rating to their purchase experience and by adding comments. Each order within this dataset may consist of multiple individual items. Each of these items could be fulfilled by different sellers. Importantly, all textual references to specific stores and partners have been anonymized and substituted with the names of prominent Game of Thrones noble houses.  </p>
+<p align="justify">The order fulfillment process on Olist Store involves the following steps: when a customer places an order, a seller is promptly notified to prepare and ship the order. Upon the customer's receipt of the product or upon the estimated delivery date, the customer is invited to participate in a satisfaction survey via email. This survey enables the customer to provide feedback by assigning a rating to their purchase experience and by adding comments. Each order within this dataset may consist of multiple individual items. Each of these items could be fulfilled by different sellers. Importantly, all textual references to specific stores and partners have been anonymized and substituted with the names of prominent Game of Thrones noble houses.  
 
+<p align="justify"> Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce </p>
 ### Structure of the data
 The data used for this project has nine different datasets:  
 1.  Customers
@@ -18,13 +19,7 @@ The data used for this project has nine different datasets:
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/da91579f-088d-41fe-98d1-d4549c68944d)
  
 
-2.  Geolocation
-
-        
-![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/cb65a36a-6829-4490-9901-08f452da0628)
-
-
-3.  Order Items
+2.  Order Items
 
         
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/e940245b-6129-475a-9d0d-c3d6da2a01a4)
@@ -34,21 +29,21 @@ The data used for this project has nine different datasets:
 
 
 
-4.  Payments
+3.  Payments
 
 
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/016a21a8-8d1e-45ee-b59a-fd63768000dc)        
 
 
 
-5.  Reviews
+4.  Reviews
 
                 
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/19fd8bff-29b3-4f53-98e3-d232636197c0)
 
 
 
-6.  Orders
+5.  Orders
 
         
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/e9b39095-1530-4e7a-9112-3f5a23a8cca6)        
@@ -56,28 +51,28 @@ The data used for this project has nine different datasets:
 
 
 
-7.  Products
+6.  Products
 
             
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/e471b4a6-bf66-4e66-acce-242743788d8a)
 
 
 
-8. Sellers
+7. Sellers
 
             
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/25a40243-c667-4d47-922d-4f2e8901d8a3)
 
 
 
-9.  Product category name
+8.  Product category name
 
     
 ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/fa13de27-f3da-4ca5-a18b-ce26187366cc)
 
 
 ### Data schema  
-The following diagram explains the way in which the nine datasets are related:
+The following diagram explains the way in which the eight datasets are related:
         ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/90c9955b-7db8-419c-b0c5-41fbe13a1a1f)
 
 ### EER Diagram        
@@ -91,34 +86,15 @@ The following diagram explains the way in which the nine datasets are related:
 
 <p align="justify"> The following plan outlines various queries and analyses that can be performed using the datasets available for Olist Supermarket:
         
-* _Customer purchase trend (2016-2018)_: Counts of delivered orders for each month across the specified years.
+* _City Revenue Summary_:This view provides a summary of city-wise revenue, including the top 10 cities with the highest revenue.
   
-* _Top 5 Cities with Highest Revenue (2016-2018)_: Identify and rank the top five cities with the highest revenue generated from 2016 to 2018.
+* _Product Category Summary_: This view provides a summary of product categories, including the number of products and the average review score.
 
-* _State-wise Revenue Table (2016-2018)_: Create a table that shows the revenue for each state, aggregated over the period of 2016 to 2018.
+* _Order Status Summary_: This view provides a summary of the total number of orders per order status.
 
-* _Top Successful Sellers_: Determine the top sellers based on the number of goods sold, total revenue, and the count of unique customers they served.
+* _Orders By Payment Type_: This view provides a summary of the number of orders per payment type.
 
-* _Sellers with Highest 5-Star Ratings_: Identify sellers with the highest number of 5-star ratings in customer reviews.
-
-* _Delivery Success Rate across State_: Calculate and analyze the delivery success rate, specifically examining the success rates across different states.
-
-* _Preferred Form of Payment by Categories_: Explore the preferred form of payment for different product categories, providing insights into customer payment behavior.
-
-* _Percentage of Reviews with No Comments_: Calculate the percentage of reviews that do not have accompanying comments, shedding light on customer feedback patterns.
-
-* _Orders from State of São Paulo (Excluding São Paulo City)_: Determine how many orders originated from the State of São Paulo but not from the City of São Paulo, if any.
-
-* _Orders Over $10 by Customer_: Select and analyze orders where the total purchase amount per customer exceeds $10, including customer information, order details, and product categories.
-
-* _Interstate Orders Delivery Time_: Calculate the delivery time (in days) for interstate orders, providing insights into delivery efficiency.
-
-* _Orders Price and Item Quantity Analysis_: Select and analyze the sum of order prices and the quantity of items purchased per order, highlighting variations between orders.
-
-* _Volumetric Weight vs. Product's Weight Analysis_: Distinguish between orders that are charged based on volumetric weight and those charged based on the product's weight, uncovering insights about Olist's freight services.
-
-<p align="justify"> This analytics plan will cover a variety of interesting aspects, including questions related to revenue, customer behavior, logistics improvements, and more. Through our data exploration, our objective is to equip Olist Supermarket with the insights needed to make decisions based on data and improve the overall shopping experience for its customers.
-
+* _Monthly Order Summary_: This view provides a summary of total orders per year and month.
         
 ### Loading data in MySQL Workbench
 <p align="justify"> For the last step of the creation of the operational data it was necessary to create the schema and the different tables. In MySQL Workbench the schema **supermarket_olist** was created as well as nine different tables in order to be consistent with the names of the store and the datasets.
@@ -204,8 +180,5 @@ The following diagram explains the way in which the nine datasets are related:
 ### Materialized views
 
 
-### Visualizations (dashboard)
-
-
-### NLP Model
+### Visualizations 
 
