@@ -73,7 +73,8 @@ The data used for this project has nine different datasets:
 
 ### Data schema  
 The following diagram explains the way in which the eight datasets are related:
-        ![image](https://github.com/Alejandra-savagebriz/TP1/assets/88064979/90c9955b-7db8-419c-b0c5-41fbe13a1a1f)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/71eebc87-12df-4757-8090-367377299ab1)
+
 
 ### EER Diagram        
 <p align="justify">The following Enhanced-Entity-Relationship Diagram (ERR) was created within MySQL Workbench, considering the distinctive attributes and interconnections inherent in each of the nine datasets associated with Olist Supermarket available data. This comprehensive ERD is emblematic of the primary keys, serving as unique identifiers for records within each dataset, and the consequential establishment of corresponding foreign keys that underpin pivotal connections and associations between the datasets.         
