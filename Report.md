@@ -77,6 +77,7 @@ To create the analytical layer after loading all the tables from the Entity-Rela
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6749ee1f-d387-45a3-91d8-ebd3d2796735)
 
 
+
 # ETL Pipeline
 ## Events and Store Procedures
 After identifying the specific attributes and features necessary for the initial comprehensive table, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. The extraction phase is represented through inner joins, combining data from diverse datasets. Subsequently, the transformation stage manifests in the conversion of dates into weekdays, thereby amplifying the data's analytical utility. Lastly, the loading phase takes shape with the creation of a new table named **Supermarket_info**. 
@@ -103,8 +104,8 @@ The utilization of events was essential for automating and executing the various
 
 <p align="justify"> By delivering a structured and user-friendly gateway to data, these constructs extract insights, make informed decisions, and develop a comprehensive comprehension of business processes. The following views and data marts were created based on the initial analytics plan:
 
-Customer purchase trend (2016-2018)
-* _Customer purchase trend (2016-2018)_: 
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/62c7a091-9445-4b92-a598-ac974fe700f6)
+
 
 # Extras
 
