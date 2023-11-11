@@ -1,7 +1,16 @@
-# Term Project 1
+# Term Project 1: Brazilian E-Commerce Marketplace Data Analytics
 Data Engineering 1  
 Central European University  
-Alejandra Savage Briz  
+Alejandra Savage Briz 
+
+## Table of Contents
+
+1. [Section 1](#section-1)
+2. [Section 2](#section-2)
+    1. [Subsection 2.1](#subsection-21)
+    2. [Subsection 2.2](#subsection-22)
+3. [Section 3](#section-3)
+
 ## Operational Layer
 ### Project data 
 <p align="justify"> The data used in the project comprises public information related to e-commerce orders executed on Olist Store, a prominent online retail platform in Brazil. The different datasets encompass a range of details regarding orders spanning the period from 2016 to 2018. These orders were placed across several online marketplaces in Brazil. The dataset offers a comprehensive view of each order, spanning diverse facets such as order status, pricing, payment, shipping performance, customer location, product attributes, and customer reviews. By having this information, it is possible to create a relational database since each dataset has a primary key that can relate to another dataset. It is noteworthy that all references to actual companies and partners in the review texts have been anonymized and replaced with the names of notable houses from the Game of Thrones series.
