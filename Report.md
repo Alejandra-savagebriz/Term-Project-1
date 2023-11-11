@@ -4,7 +4,6 @@ Central European University
 Alejandra Savage Briz 
 
 ## Table of Contents
-# Table of Contents
 - [Overview](#overview)
   - [Data Source](#data-source)
     - [Data Schema](#data-schema)
@@ -34,10 +33,10 @@ Alejandra Savage Briz
 
 <p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: 
 
+
 ### Data schema  
 <p align="justify">The following diagram explains the way in which the eight datasets are related:
-<p align="justify"> ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/41b558b3-6891-4ef3-afa2-3f1264aded94)
-
+        ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/14cc42c0-ac97-461f-92dc-6fad819c534c)
 
 
 
