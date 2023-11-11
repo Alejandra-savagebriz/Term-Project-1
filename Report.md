@@ -15,7 +15,6 @@ Alejandra Savage Briz
   - [Datawarehouse](#datawarehouse)
 - [ETL Pipeline](#etl-pipeline)
   - [Events and Stored Procedures](#events-and-stored-procedures)
-  - [Triggers](#triggers)
 - [Datamarts](#datamarts)
 - [Reproducibility](#reproducibility)
 - [Extras](#extras)
