@@ -65,22 +65,33 @@ The following diagram explains the way in which the eight datasets are related:
 
 
         
-<p align="justify"> For the last step of the creation of the operational data it was necessary to create the schema and the different tables. In MySQL Workbench the schema _supermarket_brasil_ was created as well as nine different tables in order to be consistent with the names of the store and the datasets.
+For the last step of the creation of the operational data it was necessary to create the schema and the different tables. In MySQL Workbench the schema _supermarket_brasil_ was created as well as nine different tables in order to be consistent with the names of the store and the datasets.
         
 # Analytical Layer
-## Datawarehouse
-<p align="justify"> To create the analytical layer after loading all the tables from the Entity-Relationship Diagram (EER), it is essential to understand the primary keys within each table. This understanding is crucial for determining the best way to link and join these tables efficiently. In SQL, establishing an analytical layer revolves around identifying the key elements that facilitate smooth data correlation and analysis across multiple datasets, ultimately enabling the extraction of valuable insights.
+## Data Warehouse
+To create the analytical layer after loading all the tables from the Entity-Relationship Diagram (EER), it is essential to understand the primary keys within each table. This understanding is crucial for determining the best way to link and join these tables efficiently. In SQL, establishing an analytical layer revolves around identifying the key elements that facilitate smooth data correlation and analysis across multiple datasets, ultimately enabling the extraction of valuable insights.
 
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/2b6d40d3-1447-4767-921d-4e3c3967c6eb)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/0b78b4de-aaed-4796-a8d8-a6f00ef626c0)
+
 
 
 # ETL Pipeline
 ## Events and Store Procedures
-<p align="justify"> After identifying the specific attributes and features necessary for the initial comprehensive table, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. The extraction phase is represented through inner joins, combining data from diverse datasets. Subsequently, the transformation stage manifests in the conversion of dates into weekdays, thereby amplifying the data's analytical utility. Lastly, the loading phase takes shape with the creation of a new table named **Supermarket_info**. 
+After identifying the specific attributes and features necessary for the initial comprehensive table, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. The extraction phase is represented through inner joins, combining data from diverse datasets. Subsequently, the transformation stage manifests in the conversion of dates into weekdays, thereby amplifying the data's analytical utility. Lastly, the loading phase takes shape with the creation of a new table named **Supermarket_info**. 
 
-<p align="justify"> To optimize the process and ensure repeatability, a stored procedure named **CreateSupermarket_info()** was created, streamlining the formation of this filtered table (**Supermarket_info**) by extracting details from the array of datasets. This approach simplifies the procedure, enabling a more efficient conversion of unprocessed data into well-structured, insightful data within the MySQL database.  
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/926ef2a6-0613-44df-afbb-6ecdf5a81449)
 
-<p align="justify"> The utilization of events was essential for automating and executing the various ETL tasks within the project. Events are a fundamental component of MySQL, allowing for the scheduling and execution of tasks at specified intervals. To ensure the correct execution of these ETL jobs, an initial event was created (**CreateSupermarket_info()**) following an evaluation of the scheduler's status. This event was  designed to execute the ETL process established in the preceding step. It was scheduled to run at one-minute intervals, consistently, over the course of an hour.
+
+
+
+
+
+To optimize the process and ensure repeatability, a stored procedure named **CreateSupermarket_info()** was created, streamlining the formation of this filtered table (**Supermarket_info**) by extracting details from the array of datasets. This approach simplifies the procedure, enabling a more efficient conversion of unprocessed data into well-structured, insightful data within the MySQL database.  
+
+The utilization of events was essential for automating and executing the various ETL tasks within the project. Events are a fundamental component of MySQL, allowing for the scheduling and execution of tasks at specified intervals. To ensure the correct execution of these ETL jobs, an initial event was created (**CreateSupermarket_info()**) following an evaluation of the scheduler's status. This event was  designed to execute the ETL process established in the preceding step. It was scheduled to run at one-minute intervals, consistently, over the course of an hour.
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/9d0ec44c-5fe3-48b9-8e55-17be3c1ec51c)
+
+
 
 ## Triggers
         
