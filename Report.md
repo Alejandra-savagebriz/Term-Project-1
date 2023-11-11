@@ -57,10 +57,13 @@ The following diagram explains the way in which the eight datasets are related:
 * _Orders By Payment Type_: This view provides a summary of the number of orders per payment type.
 
 * _Monthly Order Summary 2022_: This view provides a summary of total orders per month in 2022.
+  
+* _Orders per State_: This view provides a summary of total orders per state.
 
 # Operational Layer
 ## Architecture
-<p align="justify"> This is the architecture followed for creating the Operational layer.
+This is the architecture followed for creating the Operational layer.
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/a4338323-7f9c-42ae-a6b2-17d45a959fab)
 
   ## EER Diagram        
 <p align="justify"> The following Enhanced-Entity-Relationship Diagram (ERR) was created within MySQL Workbench, considering the distinctive attributes and interconnections inherent in each of the nine datasets associated with Olist Supermarket available data. This diagram shows the primary keys, serving as unique identifiers for records within each dataset, and the consequential establishment of corresponding foreign keys that underpin pivotal connections and associations between the datasets.         
@@ -117,7 +120,8 @@ The stored procedure named **CreateSupermarket_info** performs a crucial role in
 
 <p align="justify"> By delivering a structured and user-friendly gateway to data, these constructs extract insights, make informed decisions, and develop a comprehensive comprehension of business processes. The following views and data marts were created based on the initial analytics plan:
 
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/62c7a091-9445-4b92-a598-ac974fe700f6)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/0d489963-5496-4e88-a7fa-f14c52bf7114)
+
 
 
 # Reproducibility
