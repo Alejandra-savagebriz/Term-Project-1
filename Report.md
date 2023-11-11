@@ -52,15 +52,17 @@ The following diagram explains the way in which the eight datasets are related:
 
 * _Orders By Payment Type_: This view provides a summary of the number of orders per payment type.
 
-* _Monthly Order Summary_: This view provides a summary of total orders per year and month.
+* _Monthly Order Summary 2022_: This view provides a summary of total orders per month in 2022.
 
 # Operational Layer
 ## Architecture
+<p align="justify"> This is the architecture followed for creating the Operational layer.
 
-## EER Diagram        
+  ## EER Diagram        
 <p align="justify">The following Enhanced-Entity-Relationship Diagram (ERR) was created within MySQL Workbench, considering the distinctive attributes and interconnections inherent in each of the nine datasets associated with Olist Supermarket available data. This comprehensive ERD is emblematic of the primary keys, serving as unique identifiers for records within each dataset, and the consequential establishment of corresponding foreign keys that underpin pivotal connections and associations between the datasets.         
 
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/d448c2ce-db39-451b-ac39-22fc37f0051a)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/cff05e02-ef0d-4e13-a894-c7592f92bc54)
+
 
         
 <p align="justify"> For the last step of the creation of the operational data it was necessary to create the schema and the different tables. In MySQL Workbench the schema **supermarket_olist** was created as well as nine different tables in order to be consistent with the names of the store and the datasets.
