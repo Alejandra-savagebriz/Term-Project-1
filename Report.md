@@ -29,10 +29,10 @@ Alejandra Savage Briz
 
 <p align="justify">The order fulfillment process on Olist Store involves the following steps: when a customer places an order, a seller is promptly notified to prepare and ship the order. Upon the customer's receipt of the product or upon the estimated delivery date, the customer is invited to participate in a satisfaction survey via email. This survey enables the customer to provide feedback by assigning a rating to their purchase experience and by adding comments. Each order within this dataset may consist of multiple individual items. Each of these items could be fulfilled by different sellers. 
 
-<p align="justify"> Source: [Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) </p>
-<p align="justify"> For more information about Olist, please visit their website at [www.olist.com](https://www.olist.com). </p>
+<p align="justify"> Source Kaggle Brazilian E-Commerce Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce </p>
+<p align="justify"> For more information about Olist, please visit their website at: https://www.olist.com </p>
 
-<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: [Dataset Description](https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx)
+<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit Dataset Description: https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx
 
 
 
