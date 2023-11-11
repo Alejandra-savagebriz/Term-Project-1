@@ -76,7 +76,6 @@ To create the analytical layer after loading all the tables from the Entity-Rela
 
 
 # ETL Pipeline
-## Events and Store Procedures
 After identifying the specific attributes and features necessary for the initial comprehensive table, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. The extraction phase is represented through inner joins, combining data from diverse datasets. Subsequently, the transformation stage manifests in the conversion of dates into weekdays, thereby amplifying the data's analytical utility. Lastly, the loading phase takes shape with the creation of a new table named **Supermarket_info**. 
 
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/926ef2a6-0613-44df-afbb-6ecdf5a81449)
@@ -84,17 +83,31 @@ After identifying the specific attributes and features necessary for the initial
 
 
 
+<p align="justify">The **Extract** part consisted in extracting and joining data from the following source tables (orders, customers, order_items, products, category_name_t, seller, reviews, payments) based on common keys (customer_id, order_id, product_id, product_category_name, seller_id).
 
+The **Transform** part consisted in the following:
+  - `UPPER(TRIM(orders.order_status)) AS OrderStatus`: Converts the order status to uppercase and removes leading and trailing spaces.
+  - `UPPER(TRIM(customers.customer_city)) AS City`: Converts the customer city to uppercase and removes leading and trailing spaces.
+  - `ROUND(AVG(reviews.review_score), 2) AS AverageReviewScore`: Calculates the average review score from the 'reviews' table and rounds it to two decimal places.
+  - `ROUND(SUM(order_items.price + order_items.freight_value), 2) AS TotalRevenue`: Calculates the total revenue by summing the price and freight value from the 'order_items' table and rounds the result to two decimal places.
+  - `ROUND(AVG(order_items.price + order_items.freight_value), 2) AS AverageOrderValue`: Calculates the average order value by averaging the sum of price and freight value from the 'order_items' table and rounds the result to two decimal places.
+  - `YEAR(orders.order_purchase_timestamp) AS OrderYear`: Transforms the date timestamp into years.
+  - `MONTHNAME(orders.order_purchase_timestamp) AS OrderMonth`: Transforms the date timestamp into months and returns only the month name.
+  - `UPPER(TRIM(payments.payment_type)) AS PaymentType`: Converts payment types to uppercase and removes leading and trailing spaces.
 
-To optimize the process and ensure repeatability, a stored procedure named **CreateSupermarket_info()** was created, streamlining the formation of this filtered table (**Supermarket_info**) by extracting details from the array of datasets. This approach simplifies the procedure, enabling a more efficient conversion of unprocessed data into well-structured, insightful data within the MySQL database.  
+The **Load** part consisted in creating a new table _Supermarket_info_ and loading it with the result of the transformation.
+
+<p align="justify">To optimize the process and ensure repeatability, a stored procedure named **CreateSupermarket_info()** was created, streamlining the formation of this filtered table (**Supermarket_info**) by extracting details from the array of datasets. This approach simplifies the procedure, enabling a more efficient conversion of unprocessed data into well-structured, insightful data within the MySQL database.  
 
 The utilization of events was essential for automating and executing the various ETL tasks within the project. Events are a fundamental component of MySQL, allowing for the scheduling and execution of tasks at specified intervals. To ensure the correct execution of these ETL jobs, an initial event was created (**CreateSupermarket_info()**) following an evaluation of the scheduler's status. This event was  designed to execute the ETL process established in the preceding step. It was scheduled to run at one-minute intervals, consistently, over the course of an hour.
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/9d0ec44c-5fe3-48b9-8e55-17be3c1ec51c)
 
+## Events and Store Procedures
+The event **'CreateSupermarket_infoEvent** was configured to execute the previously established ETL process at a recurring interval of every minute. Throughout its execution, the event accomplishes two crucial tasks: firstly, it records a timestamped message denoting the execution time into the 'messages' table, serving as a log for monitoring purposes. Secondly, it invokes the 'CreateSupermarket_info' stored procedure, thereby initiating the ETL process. This event-driven approach not only automates the execution of ETL tasks but also provides a systematic means of logging execution times, contributing to the overall efficiency and traceability of the data processing workflow.
 
+The stored procedure named **CreateSupermarket_info** performs a crucial role in the database by generating and populating the 'Supermarket_info' table (data warehouse). The procedure begins by checking for the existence of the table; if present, it is dropped to ensure a fresh start. Subsequently, a new 'Supermarket_info' table is created and loaded with data sourced from various tables, including 'orders,' 'customers,' 'order_items,' and others, through a series of INNER JOIN operations. The procedure incorporates data transformations such as converting text fields to uppercase, trimming spaces, rounding numeric values, and extracting temporal information. This orchestrates the creation of a structured and consolidated 'Supermarket_info' table, facilitating a comprehensive view of relevant information within the database.
 
-## Triggers
-        
+**See trigger in Extras section**
 
 ## Data Marts
 <p align="justify"> Constructing data marts and views within MySQL is important for the creation of the analytics plan subsequent to an ETL (Extract, Transform, Load) process. Data marts represent purpose-built data subsets tailored for specific business units or functions. This segmentation of data into specialized marts facilitates a streamlined focus on precise analytical requirements, thereby expediting query processing and alleviating the computational burden on the primary database. Views, in contrast, offer abstract data representations that grant analysts access to intricate data without altering the underlying architecture. They simplify the data retrieval process, and through transformations or aggregations, views render data in a more accessible format for analytical purposes.
@@ -107,9 +120,13 @@ The utilization of events was essential for automating and executing the various
 # Extras
 
 ## Trigger
-
+The creation of the **"AFTER INSERT"** trigger named after_insert_customers for the CUSTOMERS table within the supermarket_brasil database was designed to execute automatically after each new insertion into the CUSTOMERS table. The trigger logic checks if the newly inserted row has a NULL or empty value for the customer_unique_id column. If this condition is true, the trigger initiates an update operation on the CUSTOMERS table, setting the customer_unique_id column to the value of customer_id for the corresponding row. The update is applied selectively, only where the customer_id matches the newly inserted customer_id. This trigger mechanism ensures that the customer_unique_id is consistently populated with the associated customer_id value, maintaining data integrity in the CUSTOMERS table.
 
 ## Testing
+<p align="justify"> Following the establishment of the project schema and its associated tables, critical testing points were thoughtfully integrated into the code to meticulously validate the accuracy of input values. This comprehensive testing approach extends to the scrutiny of stored procedures, events, and triggers, where check points were strategically placed. The examination of messages, along with the assessment of event and trigger statuses, proved invaluable in ensuring the seamless functionality of the system. Emphasizing the significance of thorough testing, a dedicated testing point was introduced to insert values into the data warehouse table, allowing for a meticulous evaluation of trigger performance. 
+
+<p align="justify"> Moreover, the SQL code culminates with a dedicated Testing section featuring an array of tests meticulously designed to verify the integrity of data marts, reinforcing the importance of robust testing practices throughout the development lifecycle. This multifaceted testing strategy serves as a linchpin in guaranteeing the reliability and effectiveness of the overall system.
+
 
 ## Visualizations 
-
+<p align="justify"> The SQL process was mirrored in Python to facilitate the upload of datasets and the creation of the data warehouse. With all the necessary values and columns seamlessly integrated into the data warehouse, replicating the data marts and their corresponding views in Python became a straightforward task. Following this replication, specific visualizations were generated for each view, adding a layer of clarity and insight to the dataset analysis. This cohesive transition between SQL and Python not only streamlined the data management process but also allowed for dynamic visual representations, enhancing the interpretability of the underlying data.
