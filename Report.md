@@ -35,8 +35,8 @@ Alejandra Savage Briz
 <p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: 
 
 ### Data schema  
-<p align="justify">The following diagram explains the way in which the eight datasets are related: ![Diagram](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/cf29c78d-9466-41b3-a30b-c84aebfb4525)
-
+<p align="justify">The following diagram explains the way in which the eight datasets are related:
+<p align="justify"> ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/41b558b3-6891-4ef3-afa2-3f1264aded94)
 
 
 
