@@ -1,4 +1,4 @@
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/41b558b3-6891-4ef3-afa2-3f1264aded94)# Term Project 1: Brazilian E-Commerce Marketplace Data Analytics
+# Term Project 1: Brazilian E-Commerce Marketplace Data Analytics
 Data Engineering 1  
 Central European University  
 Alejandra Savage Briz 
