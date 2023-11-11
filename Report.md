@@ -39,7 +39,7 @@ Alejandra Savage Briz
 ### Data schema  
 The following diagram explains the way in which the eight datasets are related:
 
-  <img src="https://github.com/Alejandra-savagebriz/TP1/assets/88064979/5f26a4f0-dad7-4495-9ecb-2098fcad7b9c" width="300" alt="image">
+  <img src="https://github.com/Alejandra-savagebriz/TP1/assets/88064979/5f26a4f0-dad7-4495-9ecb-2098fcad7b9c" width="800" alt="image">
 
 
 
