@@ -4,24 +4,30 @@ Central European University
 Alejandra Savage Briz 
 
 ## Table of Contents
+# Table of Contents
 
-1. [Overview](#Overview)
-    1.1 [Data Source](#datasource)
-       1.1.1 [Data Schema](#subsection-21)
-    1.2 [Analytics Plan](#analyticsplan)
-2. [Operational Layer](#operational_layer)
-    2.1 [Architecture](#subsection-22)
-    2.2 [EER Diagram](#subsection-22)
-3. [Analytical Layer](#section-3)
-    3.1 [Datawarehouse](#subsection-21)
-4. [ETL Pipeline](#section-3)
-    4.1 [Events and Store Procedures](#subsection-22)
-    4.2 [Triggers](#subsection-22)
-5. [Datamarts](#section-3)
-6. [Extras](#section-3)
-    6.1 [Triggers](#subsection-22)
-    6.2 [Testing](#subsection-22)
-    6.3 [Visualizations](#subsection-22)
+- [Overview](#overview)
+  - [Data Source](#data-source)
+    - [Data Schema](#data-schema)
+  - [Analytics Plan](#analytics-plan)
+
+- [Operational Layer](#operational-layer)
+  - [Architecture](#architecture)
+  - [EER Diagram](#eer-diagram)
+
+- [Analytical Layer](#analytical-layer)
+  - [Datawarehouse](#datawarehouse)
+
+- [ETL Pipeline](#etl-pipeline)
+  - [Events and Stored Procedures](#events-and-stored-procedures)
+  - [Triggers](#triggers)
+
+- [Datamarts](#datamarts)
+
+- [Extras](#extras)
+  - [Triggers](#triggers-2)
+  - [Testing](#testing)
+  - [Visualizations](#visualizations)
 
 # Overview
 ## Data Source 
