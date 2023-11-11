@@ -1,4 +1,4 @@
-# Term Project 1: Brazilian E-Commerce Marketplace Data Analytics
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/41b558b3-6891-4ef3-afa2-3f1264aded94)# Term Project 1: Brazilian E-Commerce Marketplace Data Analytics
 Data Engineering 1  
 Central European University  
 Alejandra Savage Briz 
@@ -35,8 +35,10 @@ Alejandra Savage Briz
 <p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: 
 
 ### Data schema  
-<p align="justify">The following diagram explains the way in which the eight datasets are related:
-![Actividad_1 - Page 2 (2)](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/ad395195-fce4-49f7-ac26-fe08b0297bfd)
+<p align="justify">The following diagram explains the way in which the eight datasets are related: ![Uploading image.png…]()
+
+
+
 
 ## Analytics Plan
 <p align="justify"> With the different datasets that are available for the project, enterprises such as Olist Supermarket, can thrive by harnessing the potency of data analytics to glean invaluable insights and facilitate well-informed decision-making. As the datasets encompass a variety of aspects such as orders, payments, customer reviews, and more, it is possible to prepare an analytics plan guided by data-driven exploration.
