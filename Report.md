@@ -31,7 +31,7 @@ Alejandra Savage Briz
 <p align="justify"> Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce </p>
 <p align="justify"> For more information about Olist, please visit their website at www.olist.com.
 
-<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: 
+<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit: https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx
 
 
 ### Data schema  
