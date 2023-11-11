@@ -72,11 +72,7 @@ For the last step of the creation of the operational data it was necessary to cr
 To create the analytical layer after loading all the tables from the Entity-Relationship Diagram (EER), it is essential to understand the primary keys within each table. This understanding is crucial for determining the best way to link and join these tables efficiently. In SQL, establishing an analytical layer revolves around identifying the key elements that facilitate smooth data correlation and analysis across multiple datasets, ultimately enabling the extraction of valuable insights.
 
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/0b78b4de-aaed-4796-a8d8-a6f00ef626c0)
-
-
-  ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6961dc56-5a82-471a-8c89-adafb94edac9)
-
-
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6961dc56-5a82-471a-8c89-adafb94edac9)
 
 
 # ETL Pipeline
