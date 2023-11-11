@@ -5,25 +5,19 @@ Alejandra Savage Briz
 
 ## Table of Contents
 # Table of Contents
-
 - [Overview](#overview)
   - [Data Source](#data-source)
     - [Data Schema](#data-schema)
   - [Analytics Plan](#analytics-plan)
-
 - [Operational Layer](#operational-layer)
   - [Architecture](#architecture)
   - [EER Diagram](#eer-diagram)
-
 - [Analytical Layer](#analytical-layer)
   - [Datawarehouse](#datawarehouse)
-
 - [ETL Pipeline](#etl-pipeline)
   - [Events and Stored Procedures](#events-and-stored-procedures)
   - [Triggers](#triggers)
-
 - [Datamarts](#datamarts)
-
 - [Extras](#extras)
   - [Triggers](#triggers-2)
   - [Testing](#testing)
