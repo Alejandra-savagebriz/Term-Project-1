@@ -74,7 +74,8 @@ To create the analytical layer after loading all the tables from the Entity-Rela
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/0b78b4de-aaed-4796-a8d8-a6f00ef626c0)
 
 
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6749ee1f-d387-45a3-91d8-ebd3d2796735)
+  ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6961dc56-5a82-471a-8c89-adafb94edac9)
+
 
 
 
