@@ -55,7 +55,7 @@ The following diagram explains the way in which the eight datasets are related:
 
 * _Orders By Payment Type_: This view provides a summary of the number of orders per payment type.
 
-* _Monthly Order Summary 2022_: This view provides a summary of total orders per month in 2022.
+* _Monthly Order Summary_: This view provides a summary of total orders per month.
   
 * _Orders per State_: This view provides a summary of total orders per state.
 
