@@ -144,26 +144,28 @@ The trigger named **after_insert_supermarket_info** is set to activate automatic
 <p align="justify"> Access to the Python Jupyter Notebook with the visualizations: (https://www.olist.com). </p>
 
 * _Top 10 City Revenue_:
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/73418715-d706-4907-a4f8-36beec1923d7)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53f1f086-d634-4bb2-a978-96e8360c359b)
+
 
 * _Product Category Summary_:
-  
-Top 15 Product Categories with Highest Average Review Score
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/73562adb-d404-4a8f-bb04-acd1a41c75aa)
-
 Top 15 Product Categories with More Products
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/e26c8075-898c-4b38-ad77-607724319a47)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/de7cecae-670e-46f3-9a2c-d8cd8772451d)
+
+Top 15 Product Categories with Highest Average Review Score
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/5e4d60a9-7d0c-47ed-9ccc-daf5e791f2ea)
 
 * _Order Status Summary_:
 Distribution of Total Orders by Order Status
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/1e7b60e7-37ba-4297-a881-e8572207e440)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/20b80fcf-e783-4f71-8b81-c6e19c5a8e1e)
+
 
 * _Orders By Payment Type_:
 Distribution of Orders by Payment Type  
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/f6854095-aeb1-4aaa-96eb-9442035a8840)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/c22bfc16-08ca-400d-b5af-7f1dbe6edca2)
 
-* _Yearly Revenue Summary_: 
-  ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/6a5e50ef-af5c-4cda-8657-0bd4e524f04a)
+* _Monthly Revenue Summary_: 
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53a6f413-a3fc-40da-a95f-db7eea770af1)
 
 * _Top 10 States with more Orders_:
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/9456556f-c7b5-4383-b14c-23c07e38b153)
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/570e1075-43f1-4d67-b392-b51cb126dbbc)
+
