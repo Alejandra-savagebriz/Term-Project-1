@@ -140,7 +140,7 @@ The trigger named **after_insert_supermarket_info** is set to activate automatic
 ## Visualizations 
 <p align="justify"> The SQL process was mirrored in Python to facilitate the upload of datasets and the creation of the data warehouse. With all the necessary values and columns seamlessly integrated into the data warehouse, replicating the data marts and their corresponding views in Python became a straightforward task. Following this replication, specific visualizations were generated for each view, adding a layer of clarity and insight to the dataset analysis. This cohesive transition between SQL and Python not only streamlined the data management process but also allowed for dynamic visual representations, enhancing the interpretability of the underlying data. 
   
-<p align="justify"> Access to the Python Jupyter Notebook with the visualizations: (https://www.olist.com). </p>
+<p align="justify"> Access to the Python Jupyter Notebook with the visualizations: (https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/TP1_Visualizations.ipynb)</p>
 
 * _Top 10 City Revenue_:
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53f1f086-d634-4bb2-a978-96e8360c359b)
