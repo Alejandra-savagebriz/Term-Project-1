@@ -47,7 +47,7 @@ The following diagram explains the way in which the eight datasets are related:
 
 <p align="justify"> The following plan outlines various queries and analyses that can be performed using the datasets available for Olist Supermarket:
         
-* _Top 10 City Revenue_:This view provides a summary of city-wise revenue, including the top 10 cities with the highest revenue.
+* _Top 10 City Revenue_: This view provides a summary of city-wise revenue, including the top 10 cities with the highest revenue.
   
 * _Product Category Summary_: This view provides a summary of the 15 more popular product categories, including the number of products and the average review score.
 
@@ -142,4 +142,30 @@ The trigger named **after_insert_supermarket_info** is set to activate automatic
 <p align="justify"> The SQL process was mirrored in Python to facilitate the upload of datasets and the creation of the data warehouse. With all the necessary values and columns seamlessly integrated into the data warehouse, replicating the data marts and their corresponding views in Python became a straightforward task. Following this replication, specific visualizations were generated for each view, adding a layer of clarity and insight to the dataset analysis. This cohesive transition between SQL and Python not only streamlined the data management process but also allowed for dynamic visual representations, enhancing the interpretability of the underlying data. 
   
 <p align="justify"> Access to the Python Jupyter Notebook with the visualizations: (https://www.olist.com). </p>
+
+* _Top 10 City Revenue_:
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53f1f086-d634-4bb2-a978-96e8360c359b)
+
+
+* _Product Category Summary_:
+Top 15 Product Categories with More Products
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/de7cecae-670e-46f3-9a2c-d8cd8772451d)
+
+Top 15 Product Categories with Highest Average Review Score
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/5e4d60a9-7d0c-47ed-9ccc-daf5e791f2ea)
+
+* _Order Status Summary_:
+Distribution of Total Orders by Order Status
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/20b80fcf-e783-4f71-8b81-c6e19c5a8e1e)
+
+
+* _Orders By Payment Type_:
+Distribution of Orders by Payment Type  
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/c22bfc16-08ca-400d-b5af-7f1dbe6edca2)
+
+* _Monthly Revenue Summary_: 
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53a6f413-a3fc-40da-a95f-db7eea770af1)
+
+* _Top 10 States with more Orders_:
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/570e1075-43f1-4d67-b392-b51cb126dbbc)
 
