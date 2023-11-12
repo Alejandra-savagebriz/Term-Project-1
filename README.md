@@ -27,6 +27,9 @@ Welcome to the Data Engineering 1 Term Project repository. This repository hosts
 - **Dataset Folder:**
   - Find datasets used in the project within the dataset folder: [Dataset Folder](https://github.com/Alejandra-savagebriz/Term-Project-1/tree/main/Datasets)
 
+- **Dataset Table Description:**
+  - Review the content and the description of the fields in each of the datasets: [Dataset Description Excel File](https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx)
+
 
 ## Note
 
