@@ -28,10 +28,13 @@ Alejandra Savage Briz
 
 <p align="justify">The order fulfillment process on Olist Store involves the following steps: when a customer places an order, a seller is promptly notified to prepare and ship the order. Upon the customer's receipt of the product or upon the estimated delivery date, the customer is invited to participate in a satisfaction survey via email. This survey enables the customer to provide feedback by assigning a rating to their purchase experience and by adding comments. Each order within this dataset may consist of multiple individual items. Each of these items could be fulfilled by different sellers. 
 
-<p align="justify"> Source Kaggle Brazilian E-Commerce Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce </p>
-<p align="justify"> For more information about Olist, please visit their website at: https://www.olist.com </p>
+Source: [Kaggle Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit Dataset Description: https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx
+For more information about Olist, please visit their website at: [Olist Official Website](https://www.olist.com)
+
+
+<p align="justify"> The data used for this project has eight different datasets related to the different steps in which Olist fulfills an order. For more information regarding the description of each of the columns of the datasets visit Dataset Description: [Dataset Description Excel File](https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/Dataset%20Description.xlsx)
+
 
 
 
@@ -140,7 +143,7 @@ The trigger named **after_insert_supermarket_info** is set to activate automatic
 ## Visualizations 
 <p align="justify"> The SQL process was mirrored in Python to facilitate the upload of datasets and the creation of the data warehouse. With all the necessary values and columns seamlessly integrated into the data warehouse, replicating the data marts and their corresponding views in Python became a straightforward task. Following this replication, specific visualizations were generated for each view, adding a layer of clarity and insight to the dataset analysis. This cohesive transition between SQL and Python not only streamlined the data management process but also allowed for dynamic visual representations, enhancing the interpretability of the underlying data. 
   
-<p align="justify"> Access to the Python Jupyter Notebook with the visualizations: (https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/TP1_Visualizations.ipynb)</p>
+<p align="justify"> Access to the Python Jupyter Notebook with the visualizations: [Python Notebook for Visualizations](https://github.com/Alejandra-savagebriz/Term-Project-1/blob/main/TP1_Visualizations.ipynb)
 
 * _Top 10 City Revenue_:
 ![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/53f1f086-d634-4bb2-a978-96e8360c359b)
